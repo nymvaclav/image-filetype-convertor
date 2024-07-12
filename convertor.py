@@ -1,29 +1,9 @@
 from PIL import Image as PILImage
 import customtkinter as ctk
 import os
-import json
+import json
 
-"""
- ___________________________________________________________________________________________________________________
-|                                                                                                                   |
-|     ______________________________                                                                                |
-|    |                              |                                                                               |
-|    |      Disclaimer [LEGAL]      |                                                                               |
-|    |______________________________|                                                                               |
-|                                                                                                                   |
-|                                                                                                                   |
-|    This software is provided "as is" without any representations or warranties, express or implied.               |
-|    The author is not liable for any damages arising from the use or inability to use this software.               |
-|    By using this software, you agree to indemnify and hold the author harmless from any claims or liabilities.    |
-|    This disclaimer applies to the fullest extent permitted by law.                                                |
-|                                                                                                                   |
-|___________________________________________________________________________________________________________________|
-
-"""
-
-"""
-    FOR DEVS:
-
+"""
     - REQUIRED PACKAGES -
 
 pip install Pillow
@@ -38,10 +18,7 @@ python 3.12.4
 w11 23H2 [64-bit]
     
 """
-
-#           - CONVERT -
-
-
+
 def convert(org_filetype, converted_filetype, format_rgb, org_directory, converted_directory):
     # Set up and create window
     ctk.set_appearance_mode(appearance_mode)
